@@ -1,0 +1,53 @@
+.container {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.results_container {
+  display: grid;
+  padding: 0 2rem 2rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  grid-gap: 15px;
+}
+.filter_container {
+  background-color: #fff;
+  padding: 15px;
+  height: fit-content;
+  border-radius: 3px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.234);
+}
+.result_item {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.234);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.buttons {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.popup_container {
+  padding: 20px 50px;
+  background-color: #fff;
+  min-width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.234);
+}
+.popup_inputs {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loader {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
